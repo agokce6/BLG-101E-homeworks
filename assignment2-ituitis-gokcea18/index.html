@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>Fictional developer portfolio of ahmet gökçe</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <style type="text/css">
+    </style>
+  </head>
+  
+  <body >
+    <header>
+      <p>This portfolio is completely fictional and created as a demonstration for a CS introductory course</p>
+    </header>
+
+    <div>
+        <nav>
+      		<div class="navlogo">
+      			<a href="index.html"><img src="https://raw.githubusercontent.com/itu-itis-2019/assignment1-ituitis-gokcea18/gh-pages/img/logo.png" alt="logo" ></a>
+      		</div>
+      		<div class="navbar">
+       		 	<a  href="about.html">ABOUT ME</a>
+        		<a  href="contact.html">CONTACT</a>
+        		<a  class="active" href="index.html">MAIN PAGE</a>
+        	</div>
+    	</nav>
+    </div>
+    
+    <div class="intro">
+      <h1>HELLO</h1>
+      <h2>I AM AHMET GOKCE, WHO IS CEO-FOUNDER OF GOKCE CORP.</h2>
+      <h2> AND <br> THIS WEBSITE IS ABOUT ME!</h2>
+    </div>
+    
+    <br>
+
+    <div class="users_ip">
+    	<h2 style="text-align: center;margin-bottom: 0px">VISITORS</h2>
+    	<table>
+    		<tr>
+    			<th>IP Adress</th>
+    			<th>Count</th>
+    		</tr>
+    		%(Table)s
+     </table>
+    </div>
+    
+
+    <br>   <hr>  <br>
+    <form action="/passwordChecker" method="POST">
+
+
+    	<p>Enter password to reset table:</p> <input type="password" name="pwd">
+    	<input type="checkbox" required name="confirm" value="yes">Are you sure to reset the ip adress table?<br>
+    	<input type="submit" value="Send">
+    </form>
+
+    <br>   <hr>
+    <footer>
+      <p>© 2019 Ahmet Gökçe.<br>All rights reserved. </p>
+    </footer>
+    
+  </body>
+</html>	

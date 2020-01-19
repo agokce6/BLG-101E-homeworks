@@ -1,0 +1,138 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("https://raw.githubusercontent.com/itu-itis-2019/assignment1-ituitis-gokcea18/gh-pages/img/b.jpg");
+}
+
+nav {
+  background-color: #E6E0DA;
+  overflow: hidden;
+  margin-bottom: 4%;
+  width: 100%;
+}
+
+.navbar{
+  width: 90%;
+  display: inline;
+  float: right;
+
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: right;
+  color: #502D55;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 1.9% 0%;
+  font-size: 1em;
+  width: 30%;
+ }
+ .navlogo img{
+  width: 2em;
+  height: auto;
+ }
+ .navlogo{
+  float: left;
+  display: inline;
+  width: 7%;
+  margin-left: 3%;
+  height: 1em;
+ }
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #B4838D;
+  color: #E6E0DA;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #FFCCB2;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.intro{
+	text-align: center;
+}
+.intro h1{
+	font-size: 4em;
+
+}
+.intro h2{	
+	font-size: 2em;
+	
+}
+
+.users_ip table{
+  width: 25%;
+  margin: auto;
+}
+
+.users_ip th, .users_ip td{
+  border: 1px solid black;
+  padding: 3%;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1em;
+  color: purple;
+  font-weight: bold;
+}
+
+form p{
+  display: inline;
+}
+
+.contact_list table{
+  width: 100%;
+  text-align: center;
+  
+}
+.contact_list td,.contact_list th{
+  max-width: 20em;
+}
+
+.contact_list img{
+  max-width: 30%;
+  padding-top: 5%;
+}
+
+.biography{
+  width: 50%;
+}
+
+.biography li{
+  padding: 0.5em;
+  list-style-type: square;
+}
+
+.me{
+  width: 20%;
+  position: absolute;
+  right: 14em;
+  top: 12em;
+  left: 60em;
+  
+}
+
+.me img{
+  width: 20em;
+  height: auto;
+  display: inline;
+  border-radius: 10%;
+}
+
+header{
+	font-size: 0.8em;
+}
+
+footer{
+	font-size: 0.75em;
+}
